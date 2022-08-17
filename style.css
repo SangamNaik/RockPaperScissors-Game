@@ -47,10 +47,23 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 50%;
     height: 20%;
     flex-direction: column;
     font-size: 2rem;
   }
   
-  
+  @media (max-width: 350px) {
+    .resultContainer {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    button {
+      height: 80px;
+      width: 80px;
+      font-size: 38.40px;
+    }
+
+  }
